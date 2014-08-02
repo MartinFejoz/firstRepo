@@ -1,3 +1,18 @@
 Notes issues de l'utilisation pratique de Git :
 --Ouvrir console Git depuis Explorer= Fichier>Git Bash
   Remarque: au 2è clic sur "Fichier", cette possibilité n'est plus possible
+
+--Utilisation de la commande git add [filename]
+  Track un fichier jusqu'alors untracked
+  Stage un fichier déjà tracké
+  Résolution de conflit de fusion de fichier (merge)
+
+--Cas tricky: fichier tracké + commande add pour qu'il soit staged + remodification derrière
+  Ancienne version du fichier a été staged!
+  Refaire "add [filename]" pour commit la dernière version
+
+--Le fichier .gitignore, dans le working directory, n'est pas lui-même ignoré
+  Sauf si on ajoute ".gitignore" dans le fichier .gitignore !
+
+--Sortir de $ git diff
+  Appuyer sur "q" 
