@@ -1,0 +1,4 @@
+#Creation of rules to ignore files
+*.archetypedrole
+*~
+ddagent-cli.msi
