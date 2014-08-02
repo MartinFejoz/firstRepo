@@ -15,4 +15,7 @@ Notes issues de l'utilisation pratique de Git :
   Sauf si on ajoute ".gitignore" dans le fichier .gitignore !
 
 --Sortir de $ git diff
-  Appuyer sur "q" 
+  Appuyer sur "q"
+
+--L'éditeur par défaut est vim
+  Pour enregistrer et quitter, taper: "<esc> :wq <enter>
