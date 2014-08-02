@@ -1,0 +1,3 @@
+Notes issues de l'utilisation pratique de Git :
+--Ouvrir console Git depuis Explorer= Fichier>Git Bash
+  Remarque: au 2è clic sur "Fichier", cette possibilité n'est plus possible
